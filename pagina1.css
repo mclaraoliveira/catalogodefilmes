@@ -1,0 +1,72 @@
+body {
+    background-color:#040b1b;
+    height: 100%;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.fotos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+
+}
+
+img {
+    border-radius: 8px;
+    width: 170px;
+    height: 255px;
+    box-shadow: 0px 0px 20px 0px rgb(179, 178, 180);
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+.estilobotao {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(206, 14, 14);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.estilobotao:hover {
+    background-color: rgb(102, 6, 6);
+}
+
+.botaocompleta {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgb(206, 14, 14);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.botaocompleta:hover {
+    background-color: rgb(102, 6, 6);
+}
+
+

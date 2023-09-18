@@ -1,0 +1,51 @@
+body {
+    background-image: url(https://images.pexels.com/photos/7991272/pexels-photo-7991272.jpeg);
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+div.blocofilme {
+    background-color: white;
+    width: 800px;
+    height: 330px;
+    position: relative;
+    transform: translate(33%, -1%);
+    text-align: center;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0px 0px 10px 1px #060608bd;
+}
+
+div > p {
+    text-align: center;
+    color: black;
+}
+
+.estilobotao {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgb(206, 14, 14);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+
+.estilobotao:hover {
+    background-color: rgb(102, 6, 6);
+}
+
+
+
